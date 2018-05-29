@@ -1,0 +1,38 @@
+{
+  "name": "connect-four",
+  "version": "1.0.0",
+  "description": "A simple Connect Four game",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "react-dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-cordoba/hrsf96-mini-apps-1.git"
+  },
+  "author": "Ivan Cordoba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivan-cordoba/hrsf96-mini-apps-1/issues"
+  },
+  "homepage": "https://github.com/ivan-cordoba/hrsf96-mini-apps-1#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.1.0-beta4",
+    "mongoose": "^5.1.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.0.0",
+    "nodemon": "^1.17.5",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
+  }
+}
